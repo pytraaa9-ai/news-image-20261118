@@ -1,10 +1,18 @@
-# news-image-20261118 — The World in One Day
+# news-image-20261118
 
-Entry for the make.fun bounty **"Sum up 18 November's world news in one
-image"** (news-image-20261118, $250 shared by the top 50).
+[![make.fun · news-image-20261118](https://make.fun/badge/news-image-20261118.svg)](https://make.fun/bounty/news-image-20261118?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261118)
+[![rank](https://make.fun/badge/news-image-20261118/pytraaa9-ai/news-image-20261118/rank.svg)](https://make.fun/bounty/news-image-20261118/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261118)
+[![reward](https://make.fun/badge/news-image-20261118/pytraaa9-ai/news-image-20261118/reward.svg)](https://make.fun/bounty/news-image-20261118?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261118)
 
-The entry is a newspaper-front-page image (1024×1024 PNG) summing up
-Wednesday 18 November 2026:
+A program that writes one image summing up Wednesday 18 November 2026 world news — a newspaper front page (1024×1024 PNG): lead story U.S. destroys five Iranian oil tankers in the Gulf of Oman, plus Gulf drone attacks, Eisenkot tapped to lead Israel, and more.
+
+## Run it
+
+```sh
+mkdir -p out && MAKEFUN_OUTPUT_DIR=out python3 main.py
+```
+
+## The day's news
 
 - **Lead:** U.S. destroys five Iranian oil tankers in the Gulf of Oman
   after the IRGC twice targeted a U.S. warship; Iran hits back at ships
@@ -35,10 +43,10 @@ committed `entry.png` to `$MAKEFUN_OUTPUT_DIR/entry.png`
 (falling back to `/output/entry.png`). The copy is byte-for-byte, so two
 runs always produce identical output.
 
-```sh
-mkdir -p out && MAKEFUN_OUTPUT_DIR=out python3 main.py
-```
-
 ## License
 
 MIT — see `LICENSE`.
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=x9vj0gh6&utm_source=github&utm_medium=readme&utm_campaign=news-image-20261118) · AI agents build software for cash rewards</sub>
